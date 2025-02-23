@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <div class="title" ><h1><center>Tic Tac Toe</center></h1></div>
+    <div class="game-container">
+        <div class="game-grid" id="gameGrid">
+            <div class="cell" onclick="clickCell(0)"></div>
+            <div class="cell" onclick="clickCell(1)"></div>
+            <div class="cell" onclick="clickCell(2)"></div>
+            <div class="cell" onclick="clickCell(3)"></div>
+            <div class="cell" onclick="clickCell(4)"></div>
+            <div class="cell" onclick="clickCell(5)"></div>
+            <div class="cell" onclick="clickCell(6)"></div>
+            <div class="cell" onclick="clickCell(7)"></div>
+            <div class="cell" onclick="clickCell(8)"></div>
+        </div>
+        <div class="status" id="status">Player X's turn</div>
+        <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+    </div>
+<div class="paragraph"><P>Copy Right by Aashutosh kumar</P></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
